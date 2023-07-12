@@ -4,8 +4,8 @@ public class Gate {
 
     GateState gateState;
 
-    void Gate() {
-        this.gateState = new OpenGateState();
+    public Gate() {
+        this.gateState = new OpenGateState(this);
     }
 
     void enter() {

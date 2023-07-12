@@ -4,6 +4,10 @@ public class WaitGateState implements GateState {
 
     Gate gate;
 
+    public WaitGateState(Gate gate) {
+        this.gate = gate;
+    }
+
     @Override
     public void enter() {
         // TODO Auto-generated method stub

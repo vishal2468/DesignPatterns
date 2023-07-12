@@ -4,7 +4,7 @@ public class OpenGateState implements GateState {
 
     Gate gate;
 
-    void OpenGateState(Gate gate) {
+    public OpenGateState(Gate gate) {
         this.gate = gate;
     }
 
