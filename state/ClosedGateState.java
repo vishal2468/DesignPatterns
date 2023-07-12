@@ -1,11 +1,11 @@
 package state;
 
-public class ClosedGateState implements GateState{
+public class ClosedGateState implements GateState {
 
     Gate gate;
 
     public ClosedGateState(Gate gate) {
-        this.gate=gate;
+        this.gate = gate;
     }
 
     @Override
@@ -31,5 +31,5 @@ public class ClosedGateState implements GateState{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'payFailed'");
     }
-    
+
 }

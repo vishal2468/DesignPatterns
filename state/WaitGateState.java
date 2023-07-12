@@ -1,6 +1,6 @@
 package state;
 
-public class WaitGateState implements GateState{
+public class WaitGateState implements GateState {
 
     Gate gate;
 
@@ -27,5 +27,5 @@ public class WaitGateState implements GateState{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'payFailed'");
     }
-    
+
 }

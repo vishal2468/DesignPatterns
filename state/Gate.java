@@ -4,24 +4,27 @@ public class Gate {
 
     GateState gateState;
 
-    void Gate(){
-        this.gateState=new OpenGateState();
+    void Gate() {
+        this.gateState = new OpenGateState();
     }
 
-    void enter(){
+    void enter() {
         this.gateState.enter();
     }
-    void pay(){
+
+    void pay() {
         this.gateState.pay();
     }
-    void payOk(){
+
+    void payOk() {
         this.gateState.payOk();
     }
-    void payFailed(){
+
+    void payFailed() {
         this.gateState.payFailed();
     }
 
     public void changeGateState(GateState gateState) {
-        this.gateState=gateState;
+        this.gateState = gateState;
     }
 }
